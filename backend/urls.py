@@ -10,8 +10,7 @@ from rest_framework import routers
 
 from .api.views import index_view, MessageViewSet
 
-router = routers.DefaultRouter()
-router.register('messages', MessageViewSet)
+
 
 urlpatterns = [
 
